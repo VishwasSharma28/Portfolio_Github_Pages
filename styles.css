@@ -12,15 +12,18 @@ body,h1,h2{
     }
 
     header {
-      background-color: #15171c;
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      flex-wrap: wrap;
+     background-color: #15171c;
+     padding: 2rem 5%;
+     width: 100%;
+     margin: 0;  /* remove auto centering */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
+     flex-wrap: wrap;
+     box-sizing: border-box;
     }
+
 
     .profile-img {
       width: 200px;
